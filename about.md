@@ -1,26 +1,20 @@
 ---
 layout: page
-title: About me
+title: About
 ---
 
 <p class="message">
-  Hey there! I am Ujjwal. I use this blog to express my thoughts on several different areas of my life and work. I also use this blog to keep notes on certain important methods for optimizing health, fitness, relationships with family and friends, work, and finances. 
-  
-  At present, the main common theme I find in the blog posts is that there is trade-off in everything we do. The reason why I write this blog publically is because I believe this information might be useful to others. 
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
 
-Professional Credentials: I received Ph.D. and M.S. in Electrical Engineering from Arizona State University, Tempe, AZ in 2018 and 2014, respectively. I currently work at Intel Corporation as SoC Power Management Architect for Xeon processors. My research interests are Machine Learning, Signal Processing, Dynamic Power Management for Multi-processor System-on-a-chip and Flexible Hybrid Electronics.
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-## More Information: 
+There are currently two themes built on Poole:
 
-* [Google Scholar Profile](https://scholar.google.com/citations?authuser=2&user=lWhooTIAAAAJ)
-* [LinkedIn Profile](https://www.linkedin.com/in/ugujjwal/)
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-Have questions or suggestions? Feel free to write an email to me at **ujjwal at asu dot edu** with subject line "optimal estimation". 
-
-Thanks for reading!
-
-<!--
+Learn more and contribute on [GitHub](https://github.com/poole).
 
 ## Setup
 
@@ -33,4 +27,3 @@ Some fun facts about the setup of this project include:
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
--->
