@@ -4,7 +4,7 @@ title: About me
 ---
 
 <p class="message">
-  Hey there! I am Ujjwal. I use this blog to express my thoughts on several different areas of my life and work. I also use this blog to keep notes on certain important methods for optimizing health, fitness, relationships with family and friends, work, and finances. 
+  Hey there! I am Ujjwal. I use this blog to express my thoughts on several different areas of my life. I also use this blog to keep notes on certain important methods for optimizing health, fitness, relationships with family and friends, and finances. 
   
   At present, the main common theme I find in the blog posts is that there is trade-off in everything we do. The reason why I write this blog publically is because I believe this information might be useful to others. 
 </p>
