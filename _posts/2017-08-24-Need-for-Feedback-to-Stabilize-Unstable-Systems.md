@@ -18,11 +18,11 @@ This post addresses the following question with the help of an example:
 
 >Question: Is  it possible to practically stabilize an unstable system without feedback? 
 
->Answer: No.
-
 Let us consider an unstable system with transfer function $P = \frac{1}{s-1}$. This plant has a pole on the right hand side plane in the s-domain, which means it is unstable. A naive (and incorrect way) to stabilize this system will be to employ a controller $K = \frac{s-1}{s+1}$ without any feedback. One might argue that the open loop transfer function $P\times K = \frac{1}{s+1}$ and the new pole now occurs at left hand plane of the s-domain, so this system must become stable. Unfortunately, it does not, due to at least two reasons:
 
 The disturbances in the plant input and output can completely throw away the stability. This can only be corrected using feedback. 
 Even in a disturbance free ideal world, all numbers are finite precision and have errors. So while computing $P \times K$, the $s-1$ terms in the numerator and denominator cannot completely cancel each other. 
+
+>Answer: No.
 
 I will put the response of such a system using Matlab to show instability in a future post. 
