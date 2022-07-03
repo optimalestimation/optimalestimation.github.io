@@ -25,10 +25,8 @@ I want to write some math equations in this blog. [MathJax](https://www.mathjax.
 </script>
 {% endhighlight %}
 
-'''
-
 Example code: 
-Maths between dollars is inline: $p = \alpha C_{dyn} V_{dd}^2f + I_{leak}V_{dd}$
+Maths between dollars is inline: $ p = \alpha C_{dyn} V_{dd}^2f + I_{leak}V_{dd} $
 
 Maths between two dollar signs is display as a separate equation: $$ p = \alpha C_{dyn} V_{dd}^2f + I_{leak}V_{dd} $$ 
 
