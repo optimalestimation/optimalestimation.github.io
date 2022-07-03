@@ -1,7 +1,7 @@
 # Setup
 title:               Optimal Estimation
 tagline:             'Live. Collect Data. Optimize. Repeat'
-description:         'A personal website/blog.'
+description:         'A personal website'
 url:                 http://optimalestiation.com
 baseurl:             ''
 paginate:            5
