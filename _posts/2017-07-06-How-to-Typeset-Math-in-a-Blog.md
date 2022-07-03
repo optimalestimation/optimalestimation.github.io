@@ -6,6 +6,7 @@ categories: Website-Design
 
 I want to write some math equations in this blog. [MathJax](https://www.mathjax.org/) is a Javascript library that displays mathematical notation on web browsers. Apparently, we just have to copy paste the following code in Tumblr HTML, just before the <\head> tag:
 
+{% highlight html %}
 <script type="text/x-mathjax-config">
        MathJax.Hub.Config({
        extensions: ["tex2jax.js"],
@@ -22,6 +23,9 @@ I want to write some math equations in this blog. [MathJax](https://www.mathjax.
 <script type="text/javascript" async
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+{% endhighlight %}
+
+'''
 
 Example code: 
 Maths between dollars is inline: $p = \alpha C_{dyn} V_{dd}^2f + I_{leak}V_{dd}$
