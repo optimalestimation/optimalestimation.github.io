@@ -10,7 +10,7 @@ I remember December 2022 as the month I built my first PC from components, such 
 
 * [PCpartpicker](https://pcpartpicker.com/) has multiple build guides you can choose from. However, it is more fun to select all the parts yourself. For example, I wanted to build an Intel CPU and Intel GPU PC, and I did not see any existing builds for that, so I made a new one. 
 
-* You can add different components, such as CPU, cooling mechanism, Ram, SSD/HDD, Video card (GPU), and case. The website will give you some notes on compatibility, and then you can ask specific questions on the forum. Please share your list in the forum and ask for feedback. I was told to use a white cooler instead of black, and that was an excellent suggestion because my entire PC was white (Sometimes we miss simple things!).
+* You can add different components, such as CPU, cooling mechanism, RAM, SSD/HDD, Video card (GPU), and case. The website will give you some notes on compatibility, and then you can ask specific questions on the forum. Please share your list in the forum and ask for feedback. I was told to use a white cooler instead of black, and that was an excellent suggestion because my entire PC was white (Sometimes we miss simple things!).
 
 * Now the fun part: Order all your computer parts online or go to a local store to pick them up.
 
