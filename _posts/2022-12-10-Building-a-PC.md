@@ -4,7 +4,7 @@ title: Building a PC
 categories: computer-architecture
 ---
 
-I remember December 2022 as the month I built my first PC from components, such as a CPU, GPU, and motherboard. It was an enriching experience, and every computer architect must build a PC to truly understand the impact of their work and get empathy towards their customers. If this is your first time, you will likely underestimate the amount of optimization, patience, and rigor involved in building a PC. However, don’t let that discourage you; creating a PC is a lot of fun!
+I will awlays remember December 2022 as the month I built my first PC from components, such as a CPU, GPU, and motherboard. It was an enriching experience, and every computer architect must build a PC to truly understand the impact of their work and get empathy towards their customers. If this is your first time, you will likely underestimate the amount of optimization, patience, and rigor involved in building a PC. However, do not let that discourage you; creating a PC is a lot of fun!
 
 Here is how you make one:
 
