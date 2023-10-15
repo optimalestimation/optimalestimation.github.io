@@ -27,11 +27,11 @@ These assumptions lead to a cache-based design, i.e., adding multiple memories b
 The figure below shows an example of a modern memory hierarchy. First, we have the computational logic in the core that is closest to registers, then we have L1 cache ($), L2 cache, L3 cache, 
 Random Access Memory (RAM), Solid State Drive (SSD), and Hard disk drive (HDD). 
 
-![Memory Hierarchy Example in a modern multi-core System on Chip](/_images/memory-hierarchy-example-2023.png)
+![Memory Hierarchy Example in a modern multi-core System on Chip](/assets/memory-hierarchy-example-2023.jpg)
 
 The table below shows an example of capacity, access latency, and the core energy wasted while waiting for data from memory. I used Hennessy and Patterson's computer architecture book for some of these capacity and latency numbers.
 
-![Memory Hierarchy Capacity, Latency and Energy](/_images/memory-hierarchy-table-2023.png)
+![Memory Hierarchy Capacity, Latency and Energy](/assets/memory-hierarchy-table-2023.jpg)
 
 ## Computation of Core Energy 
 
@@ -55,8 +55,8 @@ Well, that is where the temporal and spatial assumptions on the data kick in. Fo
 
 Consider a program with a 90% hit rate in the L1 cache, 5% in the L2 cache, 4% in the L3 cache, 1% in the RAM. The total latency can be computed as follows:
 
-$Latency_{hierarchy} = 90\% \times L1~access~latency + 5\% \times L2~access~latency \\
-                      + 4\% \times L3~access~latency + 1\% \times RAM~latency  $
+$Latency_{hierarchy} = 90\% \times L1_{access~latency} + 5\% \times L2_{access~latency} \\
+                      + 4\% \times L3_{access~latency} + 1\% \times RAM_{access~latency}  $
 
 $Latency_{hierarchy} = 0.9ns + 0.5ns + 0.8ns + 1ns = 1.22 ns $
 
