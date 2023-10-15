@@ -14,7 +14,7 @@ A millisecond is $2 \times 10^6$ cycles for a processor running at 2 GHz clock f
 
 Clearly, any performance optimization we do for a processor core in terms of its process/design/architecture is only helpful once we optimize for the memory latency. 
 
-On the other hand, what happens to power consumption when the processor is waiting for the data from memory? The process is stalled, and without any power management, it wastes power during that time. Therefore, memory access latency optimization is not only critical for improving performance but also for improving power consumption. 
+On the other hand, what happens to power consumption when the processor is waiting for the data from memory? The processor core is stalled, and without any power management, it wastes power during that time. Therefore, memory access latency optimization is not only critical for improving performance but also for improving energy consumption. 
 
 At the heart of memory hierarchy, there are two assumptions for memory access of modern programs:
 
@@ -27,11 +27,11 @@ These assumptions lead to a cache-based design, i.e., adding multiple memories b
 The figure below shows an example of a modern memory hierarchy. First, we have the computational logic in the core that is closest to registers, then we have L1 cache ($), L2 cache, L3 cache, 
 Random Access Memory (RAM), Solid State Drive (SSD), and Hard disk drive (HDD). 
 
-[Memory Hierarchy Example in a modern multi-core System on Chip](../_images/memory-hierarchy-example-2023.png)
+![Memory Hierarchy Example in a modern multi-core System on Chip](./_images/memory-hierarchy-example-2023.png)
 
 The table below shows an example of capacity, access latency, and the core energy wasted while waiting for data from memory. I used Hennessy and Patterson's computer architecture book for some of these capacity and latency numbers.
 
-[Memory Hierarchy Capacity, Latency and Energy](../_images/memory-hierarchy-table-2023.png)
+![Memory Hierarchy Capacity, Latency and Energy](./_images/memory-hierarchy-table-2023.png)
 
 ## Computation of Core Energy 
 
@@ -40,7 +40,7 @@ For simplification, assume the core is running at 2 GHz clock frequency, its Dyn
 
 Dynamic Power: $P_{Dynamic} = C_{dyn} V^2 f = 1nF \times (1V)^2 \times 2\times 10^9 Hz = 2 W $
 
-Total Power: $P_{total} = P_{Dynamic} + P_{leakage} = P_{Dynamic} + 0.5*P_{total}$
+Total Power: $P_{total} = P_{Dynamic} + P_{leakage} = P_{Dynamic} + 0.5 \times P_{total}$
 
 We can solve this equation to get, $ P_{total} =  P_{Dynamic}/0.6 = 2/0.5 W = 4 W $
 
