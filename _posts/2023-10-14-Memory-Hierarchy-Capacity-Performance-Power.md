@@ -27,11 +27,11 @@ These assumptions lead to a cache-based design, i.e., adding multiple memories b
 The figure below shows an example of a modern memory hierarchy. First, we have the computational logic in the core that is closest to registers, then we have L1 cache ($), L2 cache, L3 cache, 
 Random Access Memory (RAM), Solid State Drive (SSD), and Hard disk drive (HDD). 
 
-![Memory Hierarchy Example in a modern multi-core System on Chip](./_images/memory-hierarchy-example-2023.png)
+![Memory Hierarchy Example in a modern multi-core System on Chip](../_images/memory-hierarchy-example-2023.png)
 
 The table below shows an example of capacity, access latency, and the core energy wasted while waiting for data from memory. I used Hennessy and Patterson's computer architecture book for some of these capacity and latency numbers.
 
-![Memory Hierarchy Capacity, Latency and Energy](./_images/memory-hierarchy-table-2023.png)
+![Memory Hierarchy Capacity, Latency and Energy](../_images/memory-hierarchy-table-2023.png)
 
 ## Computation of Core Energy 
 
