@@ -55,8 +55,7 @@ Well, that is where the temporal and spatial assumptions on the data kick in. Fo
 
 Consider a program with a 90% hit rate in the L1 cache, 5% in the L2 cache, 4% in the L3 cache, 1% in the RAM. The total latency can be computed as follows:
 
-$Latency_{hierarchy} = 90\% \times L1_{access~latency} + 5\% \times L2_{access~latency} \\
-                      + 4\% \times L3_{access~latency} + 1\% \times RAM_{access~latency}  $
+$Latency_{hierarchy} = 90\% \times L1_{access~latency} + 5\% \times L2_{access~latency} + 4\% \times L3_{access~latency} + 1\% \times RAM_{access~latency} $
 
 $Latency_{hierarchy} = 0.9ns + 0.5ns + 0.8ns + 1ns = 1.22 ns $
 
